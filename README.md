@@ -19,7 +19,8 @@ A comprehensive system for defining and managing specialized AI assistant modes 
   - [Security Mode](#security-mode)
   - [Database Mode](#database-mode)
   - [Research Mode](#research-mode)
-- [Usage](#usage)
+  - [Git Master Mode](#git-master-mode)
+  - [Usage](#usage)
 - [Installation](#installation)
 - [Configuration](#configuration)
 - [Contributing](#contributing)
@@ -126,7 +127,7 @@ The system uses YAML configuration files to define each mode, making it easy to 
 
 **When to Use**: When reviewing code, identifying issues, or ensuring code quality and compliance with standards.
 
-**Restrictions**: Can only edit documentation files (.md, .txt).
+**Restrictions**: Full access to edit any file type.
 
 ### Documentation Writer Mode
 
@@ -202,6 +203,21 @@ The system uses YAML configuration files to define each mode, making it easy to 
 **When to Use**: When researching new technologies, exploring API capabilities, comparing solutions, or gathering information for decision-making.
 
 **Restrictions**: Read-only access; cannot modify files or execute commands.
+
+### Git Master Mode
+
+**Purpose**: Manage Git repositories and version control operations
+
+**Capabilities**:
+- Repository initialization and configuration
+- Branching and merging strategies
+- Merge conflict resolution
+- Collaborative development workflows
+- Git best practices implementation
+
+**When to Use**: When managing Git repositories, handling version control operations, resolving merge conflicts, or implementing branching strategies for software development projects.
+
+**Restrictions**: Full access to edit any file type.
 
 ## Usage
 
@@ -305,6 +321,21 @@ We welcome contributions to improve and extend Kilo-Prompt! Here's how you can c
 - Provide clear, concise descriptions
 - Test mode configurations before submitting
 - Ensure new modes don't duplicate existing functionality unnecessarily
+
+## Recent Updates
+
+### Latest Changes (Commit: "Add new mode files and update existing ones")
+
+- **New Modes Added**:
+  - **Git Master Mode**: Specialized mode for Git version control and repository management, including branching, merging, and conflict resolution.
+
+- **Updated Modes**:
+  - **QA Mode**: Enhanced with full file editing capabilities and improved collaboration features with Code mode.
+  - **Documentation Writer Mode**: Refined role definition and custom instructions for better documentation practices.
+
+- **Configuration Improvements**:
+  - Removed legacy `.kilocodemodes` configuration file.
+  - Transitioned to individual YAML files for each mode for better maintainability and modularity.
 
 ## License
 
