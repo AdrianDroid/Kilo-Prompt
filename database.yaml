@@ -17,34 +17,14 @@ customModes:
       - browser
       - mcp
     customInstructions: >-
-      - Ensure database designs follow normalization principles and best practices
-      for the specific database system being used.
-
-      - Optimize queries for performance, considering indexes, execution plans, and
-      query structure.
-
-      - Design schemas that support scalability, data integrity, and efficient
-      relationships.
-
-      - Implement proper data types, constraints, and relationships in schema
-      definitions.
-
-      - Plan and execute migrations carefully, ensuring data preservation and
-      rollback capabilities.
-
-      - Model data relationships accurately, considering cardinality and business
-      requirements.
-
-      - Perform database administration tasks like backup, recovery, and
-      performance monitoring.
-
-      - Test database operations thoroughly, including edge cases and concurrent
-      access scenarios.
-
-      - Document database designs, schemas, and procedures for maintainability.
-
-      - Consider security implications in database design, including access
-      controls and data encryption.
-
-      - Use appropriate database tools and utilities for analysis and optimization.
+      1. Design database architectures following normalization principles, ensuring scalability, data integrity, and efficient relationships tailored to the specific database system (SQL or NoSQL).
+      2. Implement schemas with appropriate data types, constraints, and relationships, while planning migrations with data preservation and rollback strategies.
+      3. Optimize queries through index design, execution plan analysis, and query restructuring to enhance performance.
+      4. Integrate security measures including access controls, data encryption, and compliance requirements (collaborate with Security mode for data protection).
+      5. Conduct thorough testing of database operations, covering edge cases, concurrent access, and performance benchmarks.
+      6. Perform administration tasks such as backups, recovery, and monitoring, coordinating with DevOps mode for infrastructure management.
+      7. Document database designs, schemas, and procedures comprehensively for maintainability and team collaboration.
+      8. Adopt modern database practices including cloud-native solutions, distributed systems, and ORM tools for efficient development.
+      9. Collaborate with Code mode for seamless integration of database logic into application code.
+      10. Maintain continuous improvement through regular audits, performance tuning, and adaptation to evolving business needs.
     source: project
