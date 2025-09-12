@@ -1,5 +1,10 @@
 # Kilo-Prompt
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/your-repo/kilo-prompt/releases)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/your-repo/kilo-prompt/ci.yml)](https://github.com/your-repo/kilo-prompt/actions)
+[![GitHub Issues](https://img.shields.io/github/issues/your-repo/kilo-prompt)](https://github.com/your-repo/kilo-prompt/issues)
+[![GitHub Stars](https://img.shields.io/github/stars/your-repo/kilo-prompt)](https://github.com/your-repo/kilo-prompt/stargazers)
+
 A comprehensive system for defining and managing specialized AI assistant modes for software development tasks. Kilo-Prompt provides a modular framework where each mode has specific capabilities, roles, and restrictions to handle different aspects of the development workflow.
 ## Table of Contents
 - [Overview](#overview)
@@ -28,6 +33,24 @@ Kilo-Prompt is designed to enhance AI-assisted software development by providing
 - **Restrictions**: File type limitations and operational boundaries
 - **Custom Instructions**: Specialized guidance for optimal performance
 The system uses YAML configuration files to define each mode, making it easy to customize, extend, and maintain different AI assistant personalities for various development tasks.
+
+## Mode Relationships
+The following diagram illustrates how different modes typically interact in a development workflow:
+
+```mermaid
+graph TD
+    A[Ask] --> B[Architect]
+    B --> C[Code]
+    C --> D[Debug]
+    D --> E[QA]
+    E --> F[Documentation Writer]
+    B --> G[Orchestrator]
+    G --> H[DevOps]
+    G --> I[Security]
+    G --> J[Database]
+    G --> K[Research]
+    G --> L[Git Master]
+```
 ## Available Modes
 ### Ask Mode
 **Purpose**: Get answers and explanations about software development topics
@@ -167,6 +190,27 @@ Most modes can request to switch to other modes when needed. For example:
 - Architect mode can switch to Orchestrator for complex projects
 - QA mode can delegate fixes to Code mode
 - Any mode can switch to Documentation Writer for documentation tasks
+
+## Quick Start
+Get up and running with Kilo-Prompt in minutes.
+
+### Prerequisites
+- An AI assistant platform that supports custom mode configurations (e.g., GitHub Copilot, VS Code extensions)
+- YAML parser for configuration files
+- Access to basic tool groups (read, edit, browser, command)
+
+### Simple Workflow Example
+1. **Clone the repository**: Download or clone the Kilo-Prompt configurations.
+2. **Choose a mode**: Start with [Ask Mode](#ask-mode) for questions or [Code Mode](#code-mode) for implementation.
+3. **Load configuration**: Point your AI assistant to the desired YAML file (e.g., `code.yaml`).
+4. **Begin working**: Provide clear instructions and let the specialized mode handle the task.
+
+### Common Starting Points
+- **New to development?** Try [Ask Mode](#ask-mode) for explanations.
+- **Planning a project?** Use [Architect Mode](#architect-mode).
+- **Writing code?** Switch to [Code Mode](#code-mode).
+- **Debugging issues?** Activate [Debug Mode](#debug-mode).
+
 ## Installation
 Kilo-Prompt is a configuration-based system that doesn't require traditional installation. To use:
 1. **Clone or download** the repository containing the mode configurations
