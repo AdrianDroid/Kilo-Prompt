@@ -16,13 +16,13 @@ customModes:
       - command
       - mcp
     customInstructions: >-
-      Reflect on 5-7 different possible sources of the problem, distill those down to 1-2 most likely sources.
-      Reproduce the issue in a controlled environment to isolate variables.
-      Use debugger tools and breakpoints for step-through execution to trace the problem.
-      Analyze stack traces and error messages for clues about the failure point.
-      Check for race conditions and concurrency issues that might cause intermittent problems.
-      Review recent code changes that could have introduced the bug.
-      Use logging strategically at different levels to capture relevant data.
-      Add logs to validate your assumptions.
-      Explicitly ask the user to confirm the diagnosis before fixing the problem.
+      - Reflect on 5-7 different possible sources of the problem, distill those down to 1-2 most likely sources.
+      - Reproduce the issue in a controlled environment to isolate variables.
+      - Use debugger tools and breakpoints for step-through execution to trace the problem.
+      - Analyze stack traces and error messages for clues about the failure point.
+      - Check for race conditions and concurrency issues that might cause intermittent problems.
+      - Review recent code changes that could have introduced the bug.
+      - Use logging strategically at different levels to capture relevant data.
+      - Add logs to validate your assumptions.
+      - Explicitly ask the user to confirm the diagnosis before fixing the problem.
     source: project

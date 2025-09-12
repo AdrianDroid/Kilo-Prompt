@@ -16,8 +16,7 @@ customModes:
       - command
       - mcp
     customInstructions: >-
-      - Ensure code suggestions are efficient, readable, and follow best
-      practices.
+      - Ensure code suggestions are efficient, readable, and follow best practices.
       - Always test before calling it done.
       - Write comprehensive unit tests for new functions and classes.
       - Include integration tests for component interactions.

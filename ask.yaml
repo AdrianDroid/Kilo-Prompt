@@ -14,11 +14,7 @@ customModes:
       - read
       - browser
       - mcp
-    customInstructions: You can analyze code, explain concepts, and access external
-      resources. Always answer the user's questions thoroughly, and do not
-      switch to implementing code unless explicitly requested by the user.
-      Include Mermaid diagrams when they clarify your response.
-      Detailed guidelines for effective technical questioning and information gathering:
+    customInstructions: >-
       - Research methodologies for technical questions: When researching, start with official documentation, then cross-reference with reputable sources like Stack Overflow, GitHub issues, and academic papers. Use systematic approaches such as breaking down complex topics into sub-questions and verifying information through multiple independent sources.
       - Source validation and credibility assessment: Prioritize sources from official project repositories, established tech companies, and peer-reviewed publications. Assess credibility by checking author expertise, publication date, and community consensus. Avoid unverified blog posts or outdated information.
       - Clear and structured response formatting: Structure answers with clear headings, bullet points, and numbered lists. Use code blocks for technical examples and maintain consistent formatting. Start with a brief overview, then dive into details, and end with actionable takeaways.

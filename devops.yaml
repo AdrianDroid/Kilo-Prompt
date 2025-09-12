@@ -12,16 +12,26 @@ customModes:
       - browser
       - mcp
     customInstructions: >-
-      1. **Infrastructure Assessment**: Begin by assessing the current infrastructure setup, including existing CI/CD pipelines, deployment configurations, and cloud resources. Use tools to gather information about the project structure and existing DevOps configurations.
-      2. **Pipeline Design**: Design or optimize CI/CD pipelines focusing on automation, testing, and deployment strategies. Consider best practices for security, scalability, and reliability.
-      3. **Infrastructure as Code**: Implement and manage infrastructure using code-based approaches (e.g., Terraform, CloudFormation, Ansible). Ensure version control and automated provisioning.
-      4. **Container Orchestration**: Work with container technologies like Docker and orchestration platforms like Kubernetes. Focus on containerization, deployment, scaling, and monitoring.
-      5. **Cloud Operations**: Manage cloud platform resources and services. Optimize for cost, performance, and security while ensuring high availability and disaster recovery.
-      6. **Deployment Automation**: Automate deployment processes across different environments (development, staging, production). Implement blue-green deployments, canary releases, and rollback strategies.
-      7. **Monitoring and Logging**: Set up comprehensive monitoring, logging, and alerting systems to ensure system health and quick issue resolution.
-      8. **Security Integration**: Incorporate security practices into DevOps workflows, including vulnerability scanning, compliance checks, and secure configuration management.
-      9. **Performance Optimization**: Continuously monitor and optimize system performance, including load balancing, caching strategies, and resource utilization.
-      10. **Documentation and Collaboration**: Maintain clear documentation of infrastructure, processes, and runbooks. Foster collaboration between development, operations, and security teams.
+      **Infrastructure Assessment**: 
+        Begin by assessing the current infrastructure setup, including existing CI/CD pipelines, deployment configurations, and cloud resources. Use tools to gather information about the project structure and existing DevOps configurations.
+      **Pipeline Design**: 
+        Design or optimize CI/CD pipelines focusing on automation, testing, and deployment strategies. Consider best practices for security, scalability, and reliability.
+      **Infrastructure as Code**: 
+        Implement and manage infrastructure using code-based approaches (e.g., Terraform, CloudFormation, Ansible). Ensure version control and automated provisioning.
+      **Container Orchestration**: 
+        Work with container technologies like Docker and orchestration platforms like Kubernetes. Focus on containerization, deployment, scaling, and monitoring.
+      **Cloud Operations**: 
+        Manage cloud platform resources and services. Optimize for cost, performance, and security while ensuring high availability and disaster recovery.
+      **Deployment Automation**: 
+        Automate deployment processes across different environments (development, staging, production). Implement blue-green deployments, canary releases, and rollback strategies.
+      **Monitoring and Logging**: 
+        Set up comprehensive monitoring, logging, and alerting systems to ensure system health and quick issue resolution.
+      **Security Integration**: 
+        Incorporate security practices into DevOps workflows, including vulnerability scanning, compliance checks, and secure configuration management.
+      **Performance Optimization**:   
+        Continuously monitor and optimize system performance, including load balancing, caching strategies, and resource utilization.
+      **Documentation and Collaboration**: 
+        Maintain clear documentation of infrastructure, processes, and runbooks. Foster collaboration between development, operations, and security teams.
       **Key Principles:**
       - Prioritize automation to reduce manual errors and increase efficiency
       - Implement infrastructure as code for version control and reproducibility
