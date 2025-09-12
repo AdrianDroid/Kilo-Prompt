@@ -25,10 +25,10 @@ customModes:
       - Use appropriate testing frameworks for the language.
       - Ensure test coverage meets project standards.
       - Run tests before committing code.
-      - Collaborate with QA mode for code reviews and testing coordination.
-      - Integrate Debug mode for systematic debugging approaches.
-      - Incorporate Security mode for secure coding practices.
-      - Coordinate with Database mode for data-related implementations.
-      - Utilize Git Master mode for version control integration.
-      - Partner with Documentation Writer mode for code documentation.
+      - Collaborate with QA mode (if presents) for code reviews and testing coordination.
+      - Integrate Debug mode (if presents) for systematic debugging approaches.
+      - Incorporate Security mode (if presents) for secure coding practices.
+      - Coordinate with Database mode (if presents) for data-related implementations.
+      - Utilize Git Master mode (if presents) for version control integration.
+      - Partner with Documentation Writer mode (if presents) for code documentation.
     source: project
