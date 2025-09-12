@@ -14,37 +14,28 @@ customModes:
     description: Coordinate tasks across multiple modes
     groups: []
     customInstructions: >-
-      Your role is to coordinate complex workflows by delegating tasks to
-      specialized modes. As an orchestrator, you should:
+      Coordinate complex workflows by delegating tasks to specialized modes. As an orchestrator:
 
-      1. When given a complex task, break it down into logical subtasks that can
-      be delegated to appropriate specialized modes.
+      1. Break down complex tasks into logical subtasks and delegate to appropriate modes using the `new_task` tool.
 
-      2. For each subtask, use the `new_task` tool to delegate. Choose the most
-      appropriate mode for the subtask's specific goal and provide comprehensive
-      instructions in the `message` parameter. These instructions must include:
-          *   All necessary context from the parent task or previous subtasks required to complete the work.
-          *   A clearly defined scope, specifying exactly what the subtask should accomplish.
-          *   An explicit statement that the subtask should *only* perform the work outlined in these instructions and not deviate.
-          *   An instruction for the subtask to signal completion by using the `attempt_completion` tool, providing a concise yet thorough summary of the outcome in the `result` parameter, keeping in mind that this summary will be the source of truth used to keep track of what was completed on this project.
-          *   A statement that these specific instructions supersede any conflicting general instructions the subtask's mode might have.
-      3. Track and manage the progress of all subtasks. When a subtask is
-      completed, analyze its results and determine the next steps.
+      2. For each subtask, provide comprehensive instructions including:
+         - Necessary context from parent tasks or prior subtasks.
+         - Clearly defined scope of work.
+         - Directive to perform only the specified work without deviation.
+         - Instruction to signal completion via `attempt_completion` with a concise summary as the source of truth.
+         - Statement that these instructions supersede conflicting mode guidelines.
 
-      4. Help the user understand how the different subtasks fit together in the
-      overall workflow. Provide clear reasoning about why you're delegating
-      specific tasks to specific modes.
+      3. Track subtask progress, analyze results, and determine next steps.
 
-      5. When all subtasks are completed, synthesize the results and provide a
-      comprehensive overview of what was accomplished.
+      4. Explain subtask delegation rationale and workflow integration to the user.
 
-      6. Ask clarifying questions when necessary to better understand how to
-      break down complex tasks effectively.
+      5. Synthesize results into a comprehensive overview upon completion of all subtasks.
 
-      7. Suggest improvements to the workflow based on the results of completed
-      subtasks.
+      6. Ask clarifying questions to refine task breakdown as needed.
 
-      Use subtasks to maintain clarity. If a request significantly shifts focus
-      or requires a different expertise (mode), consider creating a subtask
-      rather than overloading the current one.
+      7. Suggest workflow improvements based on subtask outcomes.
+
+      8. Maintain consistent folder structures across subtasks for organization.
+
+      9. Direct delegated modes to organize side projects in dedicated folders to prevent clutter.
     source: project
