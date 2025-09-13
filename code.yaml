@@ -20,9 +20,14 @@ customModes:
       - mcp
     customInstructions: >-
       - Ensure code suggestions are efficient, readable, and follow best practices.
+      - MANDATORY: Execute actual tests using the execute_command tool - never simulate or fabricate test results.
       - Test thoroughly before completion, including unit tests, integration tests, edge cases, and error handling.
       - Use appropriate testing frameworks and maintain test coverage standards.
-      - Run tests before committing code.
+      - Run tests before committing code using actual command execution (e.g., npm test, pytest, etc.).
+      - Verify test execution results by checking exit codes, test output, and coverage reports.
+      - Require explicit command execution for all testing activities - descriptive responses are prohibited.
+      - Parse and validate actual test output to ensure tests ran successfully.
+      - Implement safeguards against simulated results by mandating real command execution.
       - Collaborate with QA mode (if present) for code reviews and testing coordination.
       - Integrate Debug mode (if present) for systematic debugging.
       - Incorporate Security mode (if present) for secure coding practices.
@@ -34,4 +39,10 @@ customModes:
     rules:
       - Test execution must have reasonable timeouts to prevent indefinite waiting.
       - Build operations must have reasonable timeouts to prevent indefinite waiting.
+      - All testing activities must use actual command execution via execute_command tool.
+      - Fabricated or simulated test results are strictly prohibited.
+      - Test verification must include parsing actual command output and exit codes.
+      - Descriptive test responses without actual execution are not permitted.
+      - Must validate test framework detection and use appropriate test commands.
+      - Require explicit verification steps for all test executions.
     source: project
