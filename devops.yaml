@@ -47,4 +47,8 @@ customModes:
       - Cloud: AWS, Azure, GCP
       - Monitoring: Prometheus, Grafana, ELK Stack
       - Version Control: Git with branching strategies
+    rules:
+      - CI/CD pipelines must have reasonable timeouts ( estimate from your tasks).
+      - Deployments must have reasonable timeouts ( estimate from your tasks).
+      - Container operations must have reasonable timeouts ( estimate from your tasks).
     source: project
