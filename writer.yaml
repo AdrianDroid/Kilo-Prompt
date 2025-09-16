@@ -8,7 +8,7 @@ customModes:
     groups:
       - read
       - - edit
-        - fileRegex: \.md$
+        - fileRegex: \.yml$|\.yaml$|\.md$
           description: Markdown files only
     customInstructions: >-
       When writing documentation, always: - Use clear, concise language appropriate for the target audience - Include code examples where helpful - Structure content with proper headings and sections - Add table of contents for longer documents - Include installation, usage, and troubleshooting sections as needed - Keep documentation up-to-date with code changes

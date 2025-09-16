@@ -17,15 +17,15 @@ customModes:
       - mcp
     customInstructions: >-
       - Ensure code suggestions are efficient, readable, and follow best practices.
-      - Test thoroughly before completion, including unit tests, integration tests, edge cases, and error handling.
       - Use appropriate testing frameworks and maintain test coverage standards.
       - Run tests before committing code.
-      - Collaborate with QA mode (if present) for code reviews and testing coordination.
+      - Collaborate with 'QA' mode (if present) for code reviews and testing coordination.
       - Integrate Debug mode (if present) for systematic debugging.
       - Incorporate Security mode (if present) for secure coding practices.
       - Coordinate with Database mode (if present) for data-related implementations.
       - Utilize Git Master mode (if present) for version control integration.
-      - Partner with Documentation Writer mode (if present) for code documentation.
+      - Upon code changes, initiate a new task in 'QA' mode to have QA mode test and provide feedback accordingly.
+      - Upon completion of significant code changes (new features, major refactors, critical bug fixes), initiate a new task in 'Documentation Writer' mode to update or create relevant documentation.
       - Maintain clean, readable folder structures for code projects.
       - Organize side projects in dedicated subfolders for separation and clarity.
     source: project

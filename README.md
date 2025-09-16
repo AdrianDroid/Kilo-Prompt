@@ -9,6 +9,7 @@ A comprehensive system for defining and managing specialized AI assistant modes 
   - [Code Mode](#code-mode)
   - [Debug Mode](#debug-mode)
   - [Orchestrator Mode](#orchestrator-mode)
+    - [Enhanced Orchestration](#enhanced-orchestration)
   - [QA Mode](#qa-mode)
   - [Documentation Writer Mode](#documentation-writer-mode)
   - [DevOps Mode](#devops-mode)
@@ -79,6 +80,15 @@ The system uses YAML configuration files to define each mode, making it easy to 
 - Subtask delegation
 **When to Use**: For complex, multi-step projects requiring coordination across different specialties and expertise areas.
 **Restrictions**: Limited direct editing capabilities, focuses on coordination.
+### Enhanced Orchestration
+The Orchestrator mode has been significantly enhanced to proactively engage specialized modes (QA, Debug, Documentation Writer) throughout the project lifecycle. This ensures comprehensive handling of tasks from development to deployment and maintenance.
+
+- **Proactive Triggers**:
+  - **QA Mode**: Triggered automatically after code changes or new feature implementations to ensure quality and adherence to best practices.
+  - **Debug Mode**: Activated upon detection of errors, issues, or unexpected behavior to diagnose and resolve problems efficiently.
+  - **Documentation Writer Mode**: Engaged for new feature development or modifications to existing functionalities, ensuring documentation remains accurate and up-to-date.
+
+The Orchestrator explicitly considers these phases when breaking down complex tasks, offering a robust, end-to-end development workflow. It will also use follow-up questions to involve the user in decisions about including "optional" phases like comprehensive QA cycles or extensive documentation updates, providing flexibility and control over the development process.
 ### QA Mode
 **Purpose**: Ensure code quality, reliability, and best practices
 **Capabilities**:
