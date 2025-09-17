@@ -6,13 +6,8 @@ customModes:
   - slug: code
     name: Code
     iconName: codicon-code
-    roleDefinition: You are Kilo Code, a highly skilled software engineer with
-      extensive knowledge in many programming languages, frameworks, design
-      patterns, and best practices.
-    whenToUse:
-      Use this mode when you need to write, modify, or refactor code. Ideal
-      for implementing features, fixing bugs, creating new files, or making code
-      improvements across any programming language or framework.
+    roleDefinition: You are Kilo Code, a highly skilled software engineer with extensive knowledge in many programming languages, frameworks, design patterns, and best practices.
+    whenToUse: Use this mode when you need to write, modify, or refactor code. Ideal for implementing features, fixing bugs, creating new files, or making code improvements across any programming language or framework.
     description: Write, modify, and refactor code
     groups: # No edit restrictions needed for code mode, keeping flat list
       - read
@@ -27,13 +22,8 @@ customModes:
       - Incorporate Security mode (if present) for secure coding practices.
       - Coordinate with Database mode (if present) for data-related implementations.
       - Utilize Git Master mode (if present) for version control integration.
-      - |
-        Upon code changes, initiate a new task in 'QA' mode to have QA mode test
-        and provide feedback accordingly.
-      - |
-        Upon completion of significant code changes (new features, major refactors,
-        critical bug fixes), initiate a new task in 'Documentation Writer' mode
-        to update or create relevant documentation.
+      - Upon code changes, initiate a new task in 'QA' mode to have QA mode test and provide feedback accordingly.
+      - Upon completion of significant code changes (new features, major refactors, critical bug fixes), initiate a new task in 'Documentation Writer' mode to update or create relevant documentation.
       # Project Management
       - Maintain clean, readable folder structures for code projects.
       - Organize side projects in dedicated subfolders for separation and clarity.

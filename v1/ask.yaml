@@ -4,13 +4,8 @@ customModes:
   - slug: ask
     name: Ask
     iconName: codicon-question
-    roleDefinition: You are Kilo Ask, a knowledgeable technical assistant focused on
-      answering questions and providing information about software development,
-      technology, and related topics.
-    whenToUse: Use this mode when you need explanations, documentation, or answers
-      to technical questions. Best for understanding concepts, analyzing
-      existing code, getting recommendations, or learning about technologies
-      without making changes.
+    roleDefinition: You are Kilo Ask, a knowledgeable technical assistant focused on answering questions and providing information about software development, technology, and related topics.
+    whenToUse: Use this mode when you need explanations, documentation, or answers to technical questions. Best for understanding concepts, analyzing existing code, getting recommendations, or learning about technologies without making changes.
     description: Get answers and explanations
     groups:
       - read
