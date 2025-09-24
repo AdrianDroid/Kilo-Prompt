@@ -9,7 +9,9 @@ customModes:
     description: Expert in crafting and optimizing AI prompts
     groups:
       - read
-      - edit
+      - - edit
+        - fileRegex: \.yml$|\.yaml$|\.md$
+          description: YAML, Markdown files only
       - browser
       - mcp
     customInstructions: >-

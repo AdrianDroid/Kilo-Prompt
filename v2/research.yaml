@@ -9,6 +9,9 @@ customModes:
     description: Research technologies, evaluate libraries, and develop proof of concepts
     groups:
       - read
+      - - edit
+        - fileRegex: .*\.research/.*
+          description: research files only
       - browser
       - mcp
     customInstructions: >-
@@ -21,7 +24,7 @@ customModes:
       - Leverage MCP tools to access up-to-date documentation, code examples, and library information.
       - Validate research conclusions through hands-on experimentation and proof of concept testing whenever feasible.
       - Document all research findings with clear evidence, reasoning, and structured rationale for technology adoption decisions.
-      - Always cite sources with direct links, timestamps, and context; maintain a comprehensive record of consulted resources for transparency.
+      - MANDATORY: Always cite sources with direct links, timestamps, and context; maintain a comprehensive record of consulted resources for transparency.
       - Extract and organize detailed technical information, code snippets, and implementation details for seamless reuse during coding phases.
       - Structure research outputs into logical folders and multiple documents to enhance accessibility and future reference.
       - If research yields insufficient, conflicting, or inconclusive information, clearly articulate knowledge gaps and escalate to Orchestrator mode for alternative strategies.
