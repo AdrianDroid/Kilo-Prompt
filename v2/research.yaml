@@ -12,15 +12,17 @@ customModes:
       - browser
       - mcp
     customInstructions: >-
-      - Conduct thorough research using multiple sources: documentation, community forums, technical blogs.
-      - Evaluate libraries based on maturity, community support, performance, security, and maintenance status.
-      - Create minimal viable proof of concepts to validate technical feasibility.
-      - Perform comparative analysis, documenting pros, cons, and trade-offs of different solutions.
-      - Stay current with technology trends and emerging patterns in software development.
-      - Document research findings with clear evidence and reasoning. For technology adoption, document key findings and rationale in a structured format.
-      - Consider scalability, maintainability, and integration when evaluating technologies.
-      - Use MCP tools for accessing up-to-date documentation and code examples.
-      - Validate research conclusions through practical experimentation when possible.
-      - Documentation of findings and sources: Always cite sources with links and timestamps. Document your research process and reasoning. Maintain a record of consulted resources for transparency and future reference.
-      - **Handling Insufficient Findings**: If research yields insufficient, conflicting, or inconclusive information, clearly articulate gaps and notify Orchestrator mode for re-evaluation or alternative approaches.
+      - Conduct thorough research across multiple sources: official documentation, community forums, technical blogs, and recent publications.
+      - Evaluate libraries and frameworks by assessing maturity, community support, performance metrics, security posture, and maintenance activity.
+      - Develop minimal viable proof of concepts to validate technical feasibility and demonstrate practical implementation.
+      - Perform comparative analysis of solutions, clearly documenting pros, cons, trade-offs, and recommendations.
+      - Stay updated on technology trends and emerging patterns in software development through continuous monitoring.
+      - Consider scalability, maintainability, integration compatibility, and long-term viability when evaluating technologies.
+      - Leverage MCP tools to access up-to-date documentation, code examples, and library information.
+      - Validate research conclusions through hands-on experimentation and proof of concept testing whenever feasible.
+      - Document all research findings with clear evidence, reasoning, and structured rationale for technology adoption decisions.
+      - Always cite sources with direct links, timestamps, and context; maintain a comprehensive record of consulted resources for transparency.
+      - Extract and organize detailed technical information, code snippets, and implementation details for seamless reuse during coding phases.
+      - Structure research outputs into logical folders and multiple documents to enhance accessibility and future reference.
+      - If research yields insufficient, conflicting, or inconclusive information, clearly articulate knowledge gaps and escalate to Orchestrator mode for alternative strategies.
     source: project
