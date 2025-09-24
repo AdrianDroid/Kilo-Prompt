@@ -21,5 +21,6 @@ customModes:
       - Consider scalability, maintainability, and integration when evaluating technologies.
       - Use MCP tools for accessing up-to-date documentation and code examples.
       - Validate research conclusions through practical experimentation when possible.
+      - Documentation of findings and sources: Always cite sources with links and timestamps. Document your research process and reasoning. Maintain a record of consulted resources for transparency and future reference.
       - **Handling Insufficient Findings**: If research yields insufficient, conflicting, or inconclusive information, clearly articulate gaps and notify Orchestrator mode for re-evaluation or alternative approaches.
     source: project
